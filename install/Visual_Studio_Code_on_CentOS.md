@@ -1,11 +1,11 @@
 # Instalation de Visual Studio Code sur CentOS
 
-'''
+```
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-'''
-'''
+```
+```
 sudo nano /etc/yum.repos.d/vscode.repo
-'''
+```
 
 >[code]
 >name=Visual Studio Code
@@ -14,8 +14,8 @@ sudo nano /etc/yum.repos.d/vscode.repo
 >gpgcheck=1
 >gpgkey=https://packages.microsoft.com/keys/microsoft.asc
 
-'''
+```
 sudo yum install code
-'''
+```
 
 Enjoy !! 😉
