@@ -2,7 +2,7 @@
 
 Recherche un fichier 
 ```
-find / -name "**file**"
+find / -name "file"
 ```
 
 Recherche un mots dans des fichiers
