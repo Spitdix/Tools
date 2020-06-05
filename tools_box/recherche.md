@@ -7,5 +7,9 @@ find / -name "file"
 
 Recherche un mots dans des fichiers
 ```
-find . -type f -exec grep **montexte** {} \;
+find . -type f -exec grep montexte {} \;
+```
+ou 
+```
+grep -r -i montexte ./
 ```
