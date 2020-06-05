@@ -3,6 +3,7 @@
 ```
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 ```
+Dans le fichier:
 ```
 sudo nano /etc/yum.repos.d/vscode.repo
 ```
@@ -14,6 +15,7 @@ sudo nano /etc/yum.repos.d/vscode.repo
 >gpgcheck=1
 >gpgkey=https://packages.microsoft.com/keys/microsoft.asc
 >```
+Installation
 ```
 sudo yum install code
 ```
