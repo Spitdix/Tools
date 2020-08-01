@@ -10,7 +10,7 @@ exemple:
     COPY . /app
     RUN pip install -r requirements.txt
     EXPOSE 80
-    ENV NOM moi
+    ENV NOM variable
     CMD ["python", "app.py"]
 
 
